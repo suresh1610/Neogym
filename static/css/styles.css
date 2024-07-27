@@ -1,0 +1,310 @@
+.hero-img{
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.custom_nav-container{
+    background-color: #522633;
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+
+.navbar-brand span{
+    padding-left:10px ;
+}
+
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+}
+
+.carousel{
+    height: 735px;
+}
+
+.carousel-item .container{
+    display: flex;
+    color: white;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.detail-box h3{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.detail-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.detail-box h3 {
+    font-weight: bold;
+  }
+
+.detail-box h2{
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.detail-box p {
+    margin-top: 25px;
+  }
+
+.detail-box h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.detail-box p{
+    text-align: center;
+    padding-top: 40px 10px 0px 10px;
+}
+
+.detail-box div a{
+    display: inline-block;
+    padding: 8px 35px;
+    background-color: transparent;
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-top: 35px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.detail-box a:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.us-section{
+    background-image: url(../images/us-bg.jpg);
+}
+
+.us-heading{
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0px 2rem 0px;
+}
+
+.us-heading h2{
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.us-container{
+    padding: 3rem;
+}
+
+.us-container h2{
+    font-weight: 800;
+}
+
+.box{
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    margin:25px 10px 0 10px;
+}
+
+.box-detail{
+    padding:20px 30px 10px 30px;
+}
+
+.box-detail h5{
+    font-weight: 700;
+}
+
+.box-detail p{
+    font-weight: 400;
+}
+
+.healthy-section{
+    background-image: url(../images/healthy-bg.jpg);
+}
+
+.healthy-section{
+    padding: 8rem 50px 7rem 50px;
+    text-align: center;
+}
+
+.detail-box h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail-box p{
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.trainer_section{
+    background-image: url(../images/trainer-bg.jpg);
+}
+
+.trainer_head{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding: 5rem 0px 2rem 0px;
+}
+
+.trainer-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.card{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-body{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 225px;
+    margin-top: -40px;
+}
+
+.tra-social-icon{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    width: 225px;
+    margin-left: 4rem;
+    margin-top: -50px;
+}
+
+.bmi-container{
+    background-color: #663440;
+    padding-bottom: 50px;
+}
+
+.bmi-head{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.bmi-details{
+    padding: 50px 0px 0px 0px;
+}
+
+.bmi-content h1{
+    font-weight: 800;
+    font-size:50px;
+}
+
+.bmi-content p{
+    padding-top: 20px;
+}
+
+.bmi-cal{
+    padding:10% 0 0 10%;
+}
+
+.height{
+    padding-top: 20px;
+}
+
+#result{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+    margin-left: 100px;
+}
+
+.feedback-content{
+    background-color:#242132;
+    padding-top: 50px;
+}
+
+.map-pic{
+    padding: 50px 0px 30px 30px;
+}
+
+.feedback-details{
+    padding: 0px 30px 0px 30px;
+}
+
+.feedback-head h1{
+    text-align: text;
+    padding-top: 30px;
+}
+
+/* .feedback-ele{
+    padding: 0px 30px 0px 30px;
+} */
+
+.foot-section{
+    background-color: #663440;
+}
+
+.about-us{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footer-menu{
+    list-style: none;
+}
+
+.about-us h4{ 
+    padding-left:30px;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.no-us{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.no-us p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.follow-us{
+    padding-top: 40px;
+}
+
+.social-icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-icon{
+    padding: 10px;
+}

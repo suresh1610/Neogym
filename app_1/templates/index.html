@@ -1,0 +1,577 @@
+{% extends "base.html" %}
+{% load static %}
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neogym</title>  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body> -->
+  {% block content %}
+  <div class="hero-img">
+    <section>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Neogym
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                    </p>
+                    <div class="">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Neogym
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                    </p>
+                    <div class="contact-us">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="col-lg-10 col-md-11 mx-auto">
+                <div class="detail-box">
+                  <div>
+                    <h3>
+                      Fitness
+                    </h3>
+                    <h2>
+                      Training
+                    </h2>
+                    <h1>
+                      Neogym
+                    </h1>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse .
+                    </p>
+                    <div class="">
+                      <a href="">
+                        Contact Us
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>5
+      </div>
+    </section>
+  </div>
+
+  <section class="us-section">
+    <div class="container">
+      <div class="us-heading">
+        <h2 id="why"> why choose us</h2>
+      </div>
+
+      <div class="us-container flex justify-content-evenly">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="box text-white">
+              <div class="box-img">
+                <img src="{% static 'images/u-1.png'%}" alt="">
+              </div>
+              <div class="box-detail">
+                <h5>
+                  QUALITY EQUIPMENT
+                </h5>
+                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box flex flex-column text-white justify-content-center">
+              <div class="box-img flex">
+                <img src="{% static 'images/u-2.png' %}" alt="">
+              </div>
+              <div class="box-detail">
+                <h5>
+                  NUTRITION
+                </h5>
+                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box flex flex-column text-white justify-content-center">
+              <div class="box-img flex">
+                <img src="{% static 'images/u-3.png' %}" alt="">
+              </div>
+              <div class="box-detail">
+                <h5>
+                  HEALTHY DIET PLAN
+                </h5>
+                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box flex flex-column justify-content-center text-white">
+              <div class="box-img flex">
+                <img src="{% static 'images/u-4.png' %}" alt="">
+              </div>
+              <div class="box-detail">
+                <h5>
+                  SPORT TRAINING
+                </h5>
+                <p>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="healthy-section text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <div class="detail-box flex flex-column">
+            <h2 id="healthy">
+              HEALTHY MIND, HEALTHY BODY
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            </p>
+            <div class="btn-box">
+              <a href="">
+                READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trainer_section text-white">
+    <div class="container">
+        <div class="trainer_head">
+            <h5 id="coach">Our Gym trainer</h5>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="{% static 'images/t1.jpg' %}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="{% static '/images/instagram-logo.png' %}" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="{% static '/images/twitter.png' %}" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="{% static '/images/facebook-logo.png' %}" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="col">
+                      <div class="card">
+                        <img src="../images/t2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../images/t3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../images/t4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="col">
+                      <div class="card">
+                        <img src="../images/t5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../images/t6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div> -->
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card">
+                        <img src="../images/t7.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="col">
+                      <div class="card">
+                        <img src="../images/t8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card">
+                        <img src="../images/t9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="tra-social-icon">
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/instagram-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/twitter.png" alt="not load">
+                                    </a>
+                                </div>
+                                <div class="image-icon">
+                                    <a href="">
+                                    <img src="../images/facebook-logo.png" alt="not load">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div> -->
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="bmi-container text-white">
+    <div class="container">
+      <div class="row row-col-sm-1">
+        <div class="col-md-12 mx-auto">
+          <div class="bmi-head">
+            <h5>bmi</h5>
+          </div>
+          <div class="container-fluid bmi-details">
+            <div class="row">
+              <div class="col-md bmi-content">
+                <h1 class="text-danger">CALCULATE YOUR BODY MASS INDEX</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa doloribus omnis, fuga libero voluptas, aspernatur minima fugiat beatae voluptatem distinctio saepe repudiandae ex officia velit doloremque! Magni numquam error itaque corrupti eum eos quidem deleniti laboriosam sed pariatur. Officiis molestiae eligendi nobis possimus esse, maxime explicabo consequuntur dolorem, rerum, repellendus et facilis accusamus alias. Minus, neque blanditiis ut aliquam assumenda similique expedita voluptatum officia dolor quaerat natus mollitia at velit sequi maxime. Ullam exercitationem quam voluptas ab inventore quibusdam assumenda rem fugit excepturi omnis, eveniet rerum eum nulla quidem laborum mollitia minus minima illum esse veritatis. Error saepe veniam excepturi.</p>
+              </div>
+              <div class="col-md bmi-cal text-white">
+                <div class="weight">
+                  <div class="row g-3 align-items-center">
+                      <div class="col-auto">
+                        <label for="user_weight" class="col-form-label">🏋️weight</label>
+                      </div>
+                      <div class="col-auto">
+                        <input type="text" id="user_weight" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                      <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text text-white">
+                          kg
+                        </span>
+                      </div>
+                  </div>
+              </div>
+              <div class="height">
+                  <div class="row g-3 align-items-center">
+                      <div class="col-auto">
+                        <label for="user_height" class="col-form-label">📏Height</label>
+                      </div>
+                      <div class="col-auto">
+                        <input type="text" id="user_height" class="form-control" aria-describedby="passwordHelpInline">
+                      </div>
+                      <div class="col-auto">
+                        <span id="passwordHelpInline" class="form-text text-white">
+                          m
+                        </span>
+                      </div>
+                      <div class="col-auto">
+                          <button type="submit" class="btn btn-primary mb-3" onclick="bmi_calculation()">Calculate</button>
+                      </div>
+                      <p id="result"></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feedback-content text-white">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col map-pic">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.147257540948!2d76.97495884475111!3d11.017094176344939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8584bd4364f8d%3A0x37275d90116754c8!2sPalayur%2C%20Pappanaickenpalayam%2C%20Tamil%20Nadu%20641044!5e0!3m2!1sen!2sin!4v1719385364940!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col feedback-details">
+            <div class="feedback-head">
+              <h1 class="text-white">feedback</h1>
+            </div>
+            <div class="feedback-ele">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Phone No</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="0000000000">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="drop your feedback"></textarea>
+              </div>
+              <div class="mb-3">
+                <button type="submit" class="btn btn-primary mb-3">submit</button>
+              </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    function bmi_calculation(){
+        let weight = document.getElementById('user_weight').value;
+        let height = document.getElementById('user_height').value;
+        const resulttext = document.getElementById('result')
+
+        if(height == "" || height == 0){
+          // alert("Enter the height");
+          resulttext.textContent ="Enter vaild height";
+          resulttext.style.color = "red";
+          resulttext.style.borderColor = "red";
+          resulttext.style.backgroundColor = "lightpink";
+        } else if(weight == "" || weight == 0){
+          resulttext.textContent ="Enter  Weight";
+          resulttext.style.color = "red";
+          resulttext.style.borderColor = "red";
+          resulttext.style.backgroundColor = "lightpink";
+        } else {
+          let bmi = (weight / ((height*height)/ 10000)).toFixed(2);
+
+          if (bmi < 18){
+            resulttext.textContent ="Your bmi falls within the underweight range";
+            resulttext.style.color = "green";
+            resulttext.style.borderColor = "green";
+            resulttext.style.backgroundColor = "lightgreen";
+          } else if (bmi > 18.5 && bmi < 24.9){
+            resulttext.textContent = "Your bmi falls within the normal or healthy weight range";
+            resulttext.style.color = "green";
+            resulttext.style.borderColor = "green";
+            resulttext.style.backgroundColor = "lightgreen";
+            // console.log("Your bmi falls within the normal or healthy weight range");
+          } else if (bmi > 25 && bmi < 29.9){
+            resulttext.textContent = "Your bmi falls within the overweight range";
+            resulttext.style.color = "green";
+            resulttext.style.borderColor = "green";
+            resulttext.style.backgroundColor = "lightgreen";
+            // console.log("Your bmi falls within the overweight range");
+          } else {
+            resulttext.textContent ="Your bmi falls within the obesity range";
+            resulttext.style.color = "green";
+            resulttext.style.borderColor = "geen";
+            resulttext.style.backgroundColor = "lightgreen";
+            // console.log("Enter correct weight");
+          }
+        }
+    }
+  </script>
+  {% endblock %}
+<!-- </body>
+</html> -->
